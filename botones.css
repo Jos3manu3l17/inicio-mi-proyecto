@@ -1,0 +1,32 @@
+a.boton-principal {
+  display: inline-block;
+  background-color: #00c9a7;
+  color: white;
+  padding: 13px 30px;
+  border-radius: 8px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+a.boton-principal:hover {
+  background-color: #00a387;
+  transform: scale(1.05);
+}
+
+.login button {
+  width: 100%;
+  background-color: #00c9a7;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login button:hover {
+  background-color: #00a387;
+}
