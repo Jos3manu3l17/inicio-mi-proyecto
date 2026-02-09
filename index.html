@@ -30,11 +30,29 @@
     <a href="#login" class="boton-principal">Ingresar</a>
 
     <div class="datos-portada">
-      <p><strong>Viajar no solo es moverse, es descubrir oportunidades</strong></p>
+      <p><strong>Plataforma digital para promover destinos turísticos y conectar viajeros con experiencias locales</strong></p>
       <p><strong>Autor:</strong> José Carreño</p>
       <p><strong>Centro de Formación:</strong> Centro Industrial De Mantenimiento Integral - SENA</p>
       <p><strong>Fecha:</strong> 27/10/2025 Octubre 2025</p>
     </div>
   </div>
+
+  <script>
+const fondos = [
+  "cartagena.jpg",
+  "santaMarta.jpg",
+  "guatapé.jpg",
+  "medellin.jpg",
+  "bogota.jpg"
+];
+
+let i = 0;
+
+setInterval(() => {
+  document.body.style.backgroundImage = `url('${fondos[i]}')`;
+  i = (i + 1) % fondos.length;
+}, 5000); 
+</script>
+
 </body>
 </html>

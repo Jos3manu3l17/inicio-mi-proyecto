@@ -1,6 +1,7 @@
 @import url(portadap.css);
 @import url(loginIngreso.css);
 @import url(botones.css);
+@import url(responsivo.css);
 
 * {
   margin: 0;
@@ -10,13 +11,13 @@
 }
 
 body {
-  background: url('guatapé.jpg') no-repeat center center/cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background-image 1.2s ease-in-out;
+  background-attachment: fixed;
 }
+
 
 body::before {
   content: "";
