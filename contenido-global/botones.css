@@ -10,13 +10,13 @@ a.boton-principal {
 }
 
 a.boton-principal:hover {
-  background-color: #00a387;
+  background-color: var(--color-principal);
   transform: scale(1.05);
 }
 
 .btn-login {
   width: 100%;
-  background-color: #00c9a7;
+  background-color: var(--color-principal);
   display: flex;
   justify-content: center;
   border: none;
@@ -30,7 +30,7 @@ a.boton-principal:hover {
 }
 
 .btn-login:hover {
-  background-color: #00a387;
+  background-color: var(--color-principal);
 }
 
 .btn-login:active {

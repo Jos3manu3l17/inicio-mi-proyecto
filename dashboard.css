@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#b2b4b2;
+}
+
+.topbar{
+    background: #00c9a7;
+    color:rgb(255, 255, 255);
+    padding:15px 25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.topbar nav a{
+    color:rgb(255, 255, 255);
+    margin-left:10px;
+    text-decoration:none;
+    font-weight:500;
+    transition: .3s;
+}
+
+.topbar nav a:hover {
+    background-color: rgb(252, 252, 252);
+    padding: 9px;
+    border-radius: 15px;
+    border: 1px solid rgb(163, 163, 163);
+    color: #000000;
+    transform: scale(1.05);
+}
+
+
+.contenedor{
+    padding:30px;
+}
+
+.perfil{
+    margin-bottom:20px;
+}
+
+.buscador{
+    width:300px;
+    padding:10px;
+    border-radius:10px;
+    border:none;
+    margin-bottom:25px;
+    font-size:15px;
+}
+
+input:focus {
+    outline: 2px solid #00c9a7;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(217, 243, 213, 0.377);
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    text-decoration: none;
+    cursor: pointer;
+    color: #00c9a7;
+}
+
+.card:hover {
+        transition: .3s;
+        transform: scale(1.05);
+
+}
+
+.card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    transform: .3s;
+}
+
+
+.card h4{
+    padding:10px;
+    margin: 0 auto;
+    transition: .3s;
+}
+
+.card h4:hover {
+        color: rgb(255, 255, 255);
+}
+
+
+.card p{
+    padding:0 10px 10px;
+    font-size:14px;
+    color:#555;
+}
+
