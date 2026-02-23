@@ -38,22 +38,15 @@
   </div>
 
   <script>
-const fondos = [
-  "cartagena.jpg",
-  "guatape-antioquia.jpg",
-  "desierto-tatacoa.jpg",
-  "santaMarta.jpg",
-  "guatape.jpg",
-  "medellin.jpg",
-  "bogota.jpg",
-  "valleCocora.jpg",
-  "lago.jpg"
-];
+  const fondos = [
+    "cartagena.jpg", "guatape-antioquia.jpg", "desierto-tatacoa.jpg", "santaMarta.jpg", "guatape.jpg",
+    "medellin.jpg", "bogota.jpg", "valleCocora.jpg", "lago.jpg"
+  ];
 
 let i = 0;
 
 setInterval(() => {
-  document.body.style.backgroundImage = `url('${fondos[i]}')`;
+document.body.style.backgroundImage = `url('contenido-global/imgs/${fondos[i]}')`;
   i = (i + 1) % fondos.length;
 }, 5000); 
 </script>
