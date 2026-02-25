@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:20px;
     font-family:Arial, sans-serif;
-    background:#a0a0a0;
+    background:#000000;
 }
 
 header{
@@ -10,8 +10,9 @@ header{
     align-items:center;
     gap:15px;
     margin-bottom:20px;
-    background-color: #00c9a7;
+    background-color: #1eff00da;
     border-radius: 15px;
+    box-shadow:0 4px 10px rgb(23, 255, 2);
 }
 
 header a{
@@ -52,27 +53,27 @@ header a:hover{
 
 .card{
     display:block;
-    background:rgba(240, 239, 239, 0.288);
+    background:rgba(172, 170, 170, 0.582);
     padding:20px;
     border-radius:15px;
     text-decoration:none;
-    color:#333;
+    color:#ffffff;
     box-shadow:0 6px 15px rgba(0,0,0,.1);
     transition:0.3s;
 }
 
 .card:hover{
     transform:translateY(-5px);
-    box-shadow:0 10px 20px rgba(0,0,0,.2);
+    box-shadow:0 10px 20px rgba(28, 224, 2, 0.884);
 }
 
 .card h3{
     margin:0 0 5px 0;
-    color:#ffffff;
+    color:#1eff00da;
 }
 
 .card:hover {
-    background-color: #00c9a7;   
-    color: white; 
+    background-color: #1eff00c0;   
+    color: rgb(0, 0, 0); 
 }
 

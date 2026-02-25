@@ -1,39 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Momo+Trust+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+80s+Fade&family=Sixtyfour&family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+
 body{
     margin:0;
-    font-family: Arial, sans-serif;
-    background:#b2b4b2;
+    font-family: "Epunda Slab", serif;
+    background:#000000;
 }
 
 .topbar{
-    background: #00c9a7;
+    background: #1eff00bb;
     color:rgb(255, 255, 255);
     padding:15px 25px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    box-shadow:0 5px 15px rgba(0, 255, 21, 0.877);
 }
 
 .topbar nav a{
     color:rgb(255, 255, 255);
-    margin-left:10px;
+    margin-left:40px;
     text-decoration:none;
     font-weight:500;
     transition: .3s;
 }
 
 .topbar nav a:hover {
-    background-color: rgb(165, 167, 165);
+    background-color: rgb(0, 0, 0);
     padding: 9px;
-    border-radius: 15px;
-    border: 1px solid rgb(163, 163, 163);
-    color: #000000;
-    transform: scale(1.05);
+    border-radius: 20px;
+    border: 1px solid rgb(87, 86, 86);
+    color: #1eff00;
+    transform:translateY(-5px);
 }
 
 
 .contenedor{
     padding:30px;
+    color: white;
 }
 
 .perfil{
@@ -41,16 +45,24 @@ body{
 }
 
 .buscador{
-    width:300px;
+    width:446px;
     padding:10px;
     border-radius:10px;
     border:none;
+    background:rgba(177, 177, 177, 0.623);
     margin-bottom:25px;
     font-size:15px;
 }
 
+input::placeholder{
+    color: white;
+    opacity: 1;
+    font-family: "Epunda Slab", serif;
+}
+
 input:focus {
-    outline: 2px solid #00c9a7;
+    outline: 2px solid #1eff00;
+    color: white;
 }
 
 .cards{
@@ -60,13 +72,13 @@ input:focus {
 }
 
 .card{
-    background:rgba(217, 243, 213, 0.377);
+    background:rgba(177, 177, 177, 0.623);
     border-radius:15px;
     overflow:hidden;
     box-shadow:0 5px 15px rgba(0,0,0,.2);
     text-decoration: none;
     cursor: pointer;
-    color: #00c9a7;
+    color: #1eff00bb;
 }
 
 .card:hover {
@@ -97,6 +109,6 @@ input:focus {
 .card p{
     padding:0 10px 10px;
     font-size:14px;
-    color:#555;
+    color:#ffffff;
 }
 

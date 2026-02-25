@@ -15,7 +15,7 @@
 .login h2 {
   text-align: center;
   margin-bottom: 10px;
-  color: #00c9a7;
+  color: #1eff00;
 }
 
 .login .sub {
@@ -38,7 +38,7 @@ input {
 }
 
 input:focus {
-  outline: 2px solid #00c9a7;
+  outline: 2px solid var(--color-principal);
 }
 
 .registro {
@@ -49,7 +49,7 @@ input:focus {
 }
 
 .registro a {
-  color: #00c9a7;
+  color: var(--color-principal);
   text-decoration: none;
 }
 

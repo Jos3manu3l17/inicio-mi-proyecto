@@ -1,5 +1,5 @@
 a.boton-principal {
-  background: linear-gradient(135deg,#00c9a7,#00a387);
+  background: linear-gradient(135deg,#9ecf98,#1eff00bb);
   padding: 12px 40px;
   color: white;
   border-radius: 30px;
@@ -31,6 +31,7 @@ a.boton-principal:hover {
 
 .btn-login:hover {
   background-color: var(--color-principal);
+  transform:translateY(5px);
 }
 
 .btn-login:active {
