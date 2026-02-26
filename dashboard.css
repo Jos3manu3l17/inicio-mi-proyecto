@@ -17,6 +17,17 @@ body{
     box-shadow:0 5px 15px rgba(0, 255, 21, 0.877);
 }
 
+.logo-colombia {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-colombia> img {
+    width: 50px;
+    height: 60px;
+}
+
 .topbar nav a{
     color:rgb(255, 255, 255);
     margin-left:40px;
@@ -45,13 +56,14 @@ body{
 }
 
 .buscador{
-    width:446px;
+    width:400px;
     padding:10px;
     border-radius:10px;
     border:none;
     background:rgba(177, 177, 177, 0.623);
     margin-bottom:25px;
     font-size:15px;
+    box-shadow:0 5px 15px rgba(0, 255, 21, 0.877);
 }
 
 input::placeholder{
@@ -75,7 +87,7 @@ input:focus {
     background:rgba(177, 177, 177, 0.623);
     border-radius:15px;
     overflow:hidden;
-    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    box-shadow:0 4px 10px rgb(30, 255, 0);
     text-decoration: none;
     cursor: pointer;
     color: #1eff00bb;
